@@ -1,0 +1,7 @@
+# MovieLens files are downloaded by src/data.py (the licence does not allow redistribution)
+data/*
+!data/README.md
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
