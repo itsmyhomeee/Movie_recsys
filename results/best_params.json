@@ -1,0 +1,30 @@
+{
+  "popularity_ranking": {
+    "method": "count",
+    "m": 5
+  },
+  "popularity_rating": {
+    "method": "bayesian",
+    "m": 1.0
+  },
+  "itemknn_ranking": {
+    "k": 1682,
+    "centered": false,
+    "weighting": "rating"
+  },
+  "itemknn_rating": {
+    "k": 20,
+    "centered": true
+  },
+  "ials": {
+    "factors": 64,
+    "regularization": 5.0,
+    "alpha": 0.1,
+    "iterations": 15
+  },
+  "eals": {
+    "factors": 50,
+    "regularization": 0.15,
+    "iterations": 15
+  }
+}
